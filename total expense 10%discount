@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int p,q,d=0;
+float te;
+printf("enter price and quantity of an item");
+scanf("%d%d",&p, &q);
+if(q>1000)
+{
+d=10;
+}
+te=(p*q)-(p*q*d/100);
+printf("total expense is %f",te);
+getch();
+}
