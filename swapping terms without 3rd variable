@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+float a,b;
+clrscr();
+printf("enter first and second no.");
+scanf("%f%f",& a,&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("after swapping value of a and b are f%f%",a,b);
+getch();
+}
