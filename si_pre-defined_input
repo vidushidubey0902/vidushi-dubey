@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int p,r,t;
+float si;
+p=15000;
+r=3;
+t=2;
+si=(p*r*t)/100;
+printf("simple interest is %f",si);
+getch();
+
+}
