@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int a,i,c,d=0;
+printf("enter a no.");
+scanf("%d",&a);
+for(i=a,i>0,i=i/10)
+{
+c=i%10;
+d=d+(c*c*c);
+}
+if(d==a)
+{
+printf("amstrong no.");
+}
+else
+{
+printf("not a armstrong no.");
+}
+getch();
+}
