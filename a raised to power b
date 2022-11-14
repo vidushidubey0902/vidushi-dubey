@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int a,b,i,d=1;
+clrscr();
+printf("enter 2 no.");
+scanf("%d%d",&a,&b);
+for(i=1;i<=b;i++)
+{
+d=d*a;
+}
+printf("a raised to the power b is %d",d);
+getch();
+}
