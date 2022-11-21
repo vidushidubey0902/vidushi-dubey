@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+void main()
+{
+while(1)
+{
+int choice,b,c,d;
+clrscr();
+printf("\n arithematic operations");
+printf("\n 1.addition");
+printf("\n 2.subtraction");
+printf("\n 3.multiplication");
+printf("\n 4.division");
+printf("\n 5.average");
+printf("\n 6.percentage");
+printf("\n 7.exit");
+printf("\n enter your choice from 1 to 7");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:
+printf("enter any 2 no. to be added");
+scanf("%d%d",&b,&c);
+d=b+c;
+printf("value is %d",d);
+break;
+
+case 2:
+printf("enter any 2 no.");
+scanf("%d%d",&b,&c);
+d=b-c;
+printf("subtracted value is %d",d);
+break;
+
+case 3:
+printf("enter any 2 no.");
+scanf("%d%d",&b,&c);
+d=b*c;
+printf("multipied value is %d",d);
+break;
+
+case 4:
+printf("enter any 2 no.");
+scanf("%d%d",&b,&c);
+d=b/c;
+printf("answer is %d",d);
+break;
+
+case 5:
+printf("enter any 2 no.");
+scanf("%d%d",&b,&c);
+d=(b+c)/2;
+printf("average of these 2 no. is %d",d);
+break;
+
+case 6:
+printf("enter any 2 no.");
+scanf("%d%d",&b,&c);
+d=(b/c)*100;
+printf("b percent of a is %d",d);
+break;
+
+case 7:
+exit(0);
+}
+getch();
+}
+}
+
