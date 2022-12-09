@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<conio.h>
+void display(int*);
+void main()
+{
+int a[]={12,23,343,5,4,65,7,6,786},i;
+for(i=0;i<9;i++)
+{
+display(&a[i]);
+}
+getch();
+}
+void display(int *x)
+{
+printf("%d",*x);
+}
