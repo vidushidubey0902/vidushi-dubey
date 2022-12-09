@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int mark[30],i,avg;
+printf("enter marksa of 30 students");
+for(i=0;i<29;i++)
+{
+scanf("%d",&mark[i]);
+avg=avg+mark[i];
+}
+avg=avg/30;
+printf("%d",avg);
+getch();
+}
