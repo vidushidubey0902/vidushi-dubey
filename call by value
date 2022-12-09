@@ -1,0 +1,16 @@
+include<stdio.h>
+#include<conio.h>
+void display(int);
+void main()
+{
+int mark[]={55,65,75,95,82},i;
+for(i=0;i<5;i++)
+{
+display (mark[i]);
+}
+getch();
+}
+void display(int x)
+{
+printf("%d",x);
+}
