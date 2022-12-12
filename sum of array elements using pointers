@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+void sum(int*);
+void main()
+{
+int a[]={1,2,3,4,5},i;
+clrscr();
+printf("enter array elements");
+for(i=0;i<5;i++)
+{
+printf("%d",a[i]);
+}
+sum(a);
+}
+getch();
+void sum(int *p)
+{
+int sum=0,j;
+for(j=0;j<5;j++)
+{
+sum=sum+(*p);
+p++;
+}
+printf("sum is %d",sum);
+}
