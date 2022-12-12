@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <conio.h>
+void add(int*,int*);
+void sub(int*,int*);
+void mul(int*,int*);
+void div(int*,int*);
+void main()
+{
+int a,b;
+printf("enter 2 elements");
+scanf("%d%d",&a,&b);
+add(&a,&b);
+sub(&a,&b);
+mul(&a,&b);
+div(&a,&b);
+getch();
+}
+void add(int *x,int *y)
+{
+int sum;
+sum=(*x+*y);
+printf("sum is %d",sum);
+}
+void sub(int *x,int *y)
+{
+int sub;
+sub=(*x-*y);
+printf("a-b is %d",sub);
+}
+void mul(int *x,int *y )
+{
+int mul;
+mul=*x* *y;
+printf("a*b is %d",mul);
+}
+void div(int *x,int *y)
+{
+int div;
+div=(*x/(*y));
+printf("a/b is %d",div);
+}
