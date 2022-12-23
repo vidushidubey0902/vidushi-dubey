@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char ch[10],a[10];
+clrscr();
+printf("enter a string:");
+gets(ch);
+strcpy(a,ch);
+strrev(ch);
+
+if(strcmp(ch,a)==0)
+{
+printf("this string is a palindrome");
+}
+else
+{
+printf("it is not a palindrome string");
+}
+getch();
+}
+
+
+
